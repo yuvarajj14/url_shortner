@@ -1,0 +1,10 @@
+<%= form_for :link , url: links_path do |f| %>
+  <div class="form-group">
+    <%= f.label :Enter_the_URL %><br>
+    <%= f.text_field :original_url %>
+  
+ 
+  
+    <%= f.submit %>
+  </div>
+<% end %>
